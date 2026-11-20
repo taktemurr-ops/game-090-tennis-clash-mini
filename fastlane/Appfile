@@ -1,0 +1,4 @@
+package_name("com.gamestudio100.game_090_tennis_clash_mini")
+app_identifier("com.gamestudio100.game_090_tennis_clash_mini")
+# json_key_file(ENV["PLAY_JSON_KEY"])   # Google Play service account (secret)
+# apple_id(ENV["APPLE_ID"])
