@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_090_tennis_clash_mini/core/arcade.dart';
-import 'package:game_090_tennis_clash_mini/core/level_plan.dart';
+import 'package:studio_core/core/arcade.dart';
+import 'package:studio_core/core/level_plan.dart';
 import 'package:game_090_tennis_clash_mini/game/rally_engine.dart';
 import 'package:game_090_tennis_clash_mini/game/rules.dart';
 
