@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_090_tennis_clash_mini/app/app_state.dart';
-import 'package:game_090_tennis_clash_mini/app/bootstrap.dart';
-import 'package:game_090_tennis_clash_mini/app/screens/settings.dart';
-import 'package:game_090_tennis_clash_mini/app/screens/shop.dart';
-import 'package:game_090_tennis_clash_mini/app/services/ads.dart';
-import 'package:game_090_tennis_clash_mini/app/services/audio.dart';
-import 'package:game_090_tennis_clash_mini/app/services/purchases.dart';
-import 'package:game_090_tennis_clash_mini/core/game_session.dart';
-import 'package:game_090_tennis_clash_mini/core/save_store.dart';
-import 'package:game_090_tennis_clash_mini/core/telemetry.dart';
+import 'package:studio_core/app/app_state.dart';
+import 'package:studio_core/app/bootstrap.dart';
+import 'package:studio_core/app/screens/settings.dart';
+import 'package:studio_core/app/screens/shop.dart';
+import 'package:studio_core/app/services/ads.dart';
+import 'package:studio_core/app/services/audio.dart';
+import 'package:studio_core/app/services/purchases.dart';
+import 'package:studio_core/core/game_session.dart';
+import 'package:studio_core/core/save_store.dart';
+import 'package:studio_core/core/telemetry.dart';
 import 'package:game_090_tennis_clash_mini/game/game_config.dart';
 
 Future<AppState> _state({bool onboarded = true}) async {
