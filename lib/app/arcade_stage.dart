@@ -363,8 +363,10 @@ class _ArcadeStageState extends State<ArcadeStage>
                           child: Container(
                             color: Colors.black45,
                             alignment: Alignment.center,
-                            padding: const EdgeInsets.all(32),
-                            child: Column(
+                            padding: const EdgeInsets.all(16),
+                            // Scrolls instead of overflowing on short phones (long how-to texts).
+                            child: SingleChildScrollView(
+                              child: Column(
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Icon(_paused ? Icons.pause_circle : Icons.touch_app,
@@ -378,6 +380,7 @@ class _ArcadeStageState extends State<ArcadeStage>
                                   style: const TextStyle(color: Colors.white, fontSize: 18),
                                 ),
                               ],
+                            ),
                             ),
                           ),
                         ),
